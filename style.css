@@ -80,6 +80,7 @@ body {
 .button:focus {
     filter: brightness(120%);
 }
+
 @media screen and (max-width: 560px) {
 
     .value {
