@@ -45,3 +45,29 @@ numberButtons.forEach((number) => {
    
   };
 
+  operationButtons.forEach((op)=>{
+
+    op.onclick=()=>{
+  
+  if(altEkranYazi==="") return ;
+  
+     if(altEkranYazi && ustEkranYazi) hesapla()
+  
+  
+      islem = op.textContent;
+  
+      ustEkranYazi = altEkranYazi;
+  
+      altEkranYazi = "";
+      updateEkran();
+    }
+  })
+  
+  equalButtons.onclick=()=>{
+  
+    hesapla()
+  updateEkran()
+  
+  }
+
+  
