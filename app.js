@@ -68,7 +68,6 @@ numberButtons.forEach((number) => {
   updateEkran()
   }
 
-
   const hesapla=()=>{
     let sonuc;
     switch (islem) {
