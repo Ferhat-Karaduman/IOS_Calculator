@@ -42,7 +42,6 @@ numberButtons.forEach((number) => {
    } else {
      ustEkran.textContent = "";
    }
-   
   };
 
   operationButtons.forEach((op)=>{
@@ -67,8 +66,8 @@ numberButtons.forEach((number) => {
   
     hesapla()
   updateEkran()
-  
   }
+
 
   const hesapla=()=>{
     let sonuc;
