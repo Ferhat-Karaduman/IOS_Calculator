@@ -33,4 +33,15 @@ numberButtons.forEach((number) => {
   altEkranYazi += num;
   }
 
+  const updateEkran = () => {
+
+    altEkran.textContent = altEkranYazi;
   
+   if (islem) {
+     ustEkran.textContent = `${üstEkranYazi}  ${işlem}`;
+   } else {
+     ustEkran.textContent = "";
+   }
+   
+  };
+
