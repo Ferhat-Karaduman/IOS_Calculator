@@ -70,4 +70,29 @@ numberButtons.forEach((number) => {
   
   }
 
-  
+  const hesapla=()=>{
+    let sonuc;
+    switch (islem) {
+      case "+":
+       sonuc= +ustEkranYazi + Number(altEkranYazi);
+        break;
+      case "-":
+       sonuc= ustEkranYazi - altEkranYazi;
+        break;
+    
+      case "x":
+      sonuc=  ustEkranYazi * altEkranYazi;
+        break;
+      case "÷":
+      sonuc=  ustEkranYazi / altEkranYazi;
+        break;
+    
+      default:
+        return;
+    }
+    
+     altEkranYazi=sonuc
+    
+    ustEkranYazi=""
+    islem=""
+    }
